@@ -11,7 +11,7 @@ public class ArrAndMethodsAss2 {
 		avg=sum/salary.length;
 		System.out.println("The average salary of the employee is "+avg);
 		for(int i=0;i<salary.length;i++) {
-			if(salary[i]>avg)
+			if(salary[i]>avg)//
 				abvAvgsalaryCount++;
 			else if(salary[i]<avg) 
 				belAvgsalaryCount++;
